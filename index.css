@@ -1,0 +1,43 @@
+form{
+  position: relative;
+  max-width: 300px;
+}
+input{
+  position: relative;
+  display: block;
+  width: 292px;
+}
+
+
+.invalid{
+  border-color: #900;
+  background-color: #fdd;
+}
+
+input:focus.invalid{
+  outline: none;
+  border-color: black;
+  background-color: white;
+}
+span{
+  display: block;
+  background-color: #900;
+  color: white;
+  margin-bottom: 1em;
+  width: none;
+}
+
+.custom-span{
+  display: block;
+  background-color: #900;
+  color: white;
+  margin-bottom: 1em;
+}
+
+#input-pw1, #input-pw2{
+
+}
+
+#input-pw1:focus, #input-pw2:focus{
+
+}
